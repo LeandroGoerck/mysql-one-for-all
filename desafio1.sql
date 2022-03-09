@@ -170,11 +170,6 @@ INSERT INTO SpotifyClone.user_follow_artist(user_id,	artist_id) VALUES
 
 
 
-
-
-
-
-
 CREATE TABLE SpotifyClone.reproductions_history (
 	# reproduction_id INT NOT NULL, 
     user_id   INT NOT NULL, 
@@ -188,44 +183,45 @@ CREATE TABLE SpotifyClone.reproductions_history (
 ) ENGINE = InnoDB;
 
 INSERT INTO SpotifyClone.reproductions_history(user_id, music_id, music_title, reproduction_date) VALUES
-(6, 1,  'He Heard You\'re Bad For Me', '2017-01-24 00:31:17'),
-(10, 2, 'History Of My Roses', '2017-02-06 08:21:34'),
-(5, 3, 'Rock His Everything', '2017-02-24 21:14:22'),
-(10, 4, 'Rock His Everything', '2017-07-27 05:24:49'),
-(6, 5, 'He Hopes We Can\'t Stay', '2017-10-12 12:35:20'),
-(10, 6, 'Without My Love', '2017-12-04 05:33:43'),
-(10, 7,  'Home Forever', '2017-12-25 01:03:57'),
-(7, 8,  'Celebration Of More', '2018-01-16 18:40:43'),
-(8, 9, 'Baby', '2018-03-21 16:56:40'),
-(7, 10, 'Time Fireworks', '2018-05-09 22:30:49'),
-(6, 11, 'Walking And Game', '2018-05-29 14:56:41'),
-(9, 12, 'Words Of Her Life', '2018-12-07 22:48:52'),
-(6, 13, 'Wouldn\'t It Be Nice', '2019-02-07 20:33:48'),
-(8, 14,  'He\'s Walking Away', '2019-05-25 08:14:03'),
-(2, 15, 'I Heard I Want To Bo Alone', '2020-01-02 07:40:33'),
-(1, 16, 'Honey', '2020-02-28 10:45:55'),
-(1, 17, 'Young And Father', '2020-03-06 11:22:33'),
-(9, 18, 'She Knows', '2020-04-01 03:36:00'),
-(1, 19, 'Walking And Man', '2020-05-02 05:30:35'),
-(2, 20, 'Finding My Traditions', '2020-05-16 06:16:22'),
-(5, 21, 'Honey, So Do I', '2020-07-03 19:33:28'),
-(7, 22, 'Troubles Of My Inner Fire', '2020-07-27 12:52:58'),
-(3, 23, 'Hard And Time', '2020-07-30 10:00:00'),
-(1, 24, 'Diamond Power', '2020-08-05 08:05:17'),
-(5, 25, 'Diamond Power', '2020-08-06 15:23:43'),
-(1, 26, 'Let\'s Be Silly', '2020-09-14 16:32:22'),
-(2, 27, 'Baby', '2020-09-21 13:14:46'),
-(2, 28, 'Without My Love', '2020-10-09 12:27:48'),
-(8, 29, 'You Make Me Feel So..', '2020-10-18 13:38:05'),
-(5, 30, 'Soul For Us', '2020-11-10 13:52:27'),
-(3, 31, 'Magic Circus', '2020-11-13 16:55:13'),
-(3, 32,  'Dance With Her Own', '2020-12-05 18:38:30'),
-(4, 33, 'Honey, I\'m A Lone Wolf', '2021-01-09 01:44:33'),
-(9, 34, 'Sweetie, Let\'s Go Wild', '2021-03-14 06:14:26'),
-(9, 35, 'Thang Of Thunder' , '2021-05-24 17:23:45'),
-(4, 36, 'I Ride Alone', '2021-07-10 15:20:30'),
-(4, 37, 'Reflections Of Magic', '2021-08-15 17:10:10'),
-(8, 38, 'He\'s Trouble', '2021-08-15 21:37:09');
+(6, 29,  'He Heard You\'re Bad For Me', '2017-01-24 00:31:17'),
+(10, 20, 'History Of My Roses', '2017-02-06 08:21:34'),
+(5, 12, 'Rock His Everything', '2017-02-24 21:14:22'),
+(10, 12, 'Rock His Everything', '2017-07-27 05:24:49'),
+(6, 30, 'He Hopes We Can\'t Stay', '2017-10-12 12:35:20'),
+(10, 21, 'Without My Love', '2017-12-04 05:33:43'),
+(10, 13,  'Home Forever', '2017-12-25 01:03:57'),
+(7, 11,  'Celebration Of More', '2018-01-16 18:40:43'),
+(8, 39, 'Baby', '2018-03-21 16:56:40'),
+(7, 5, 'Time Fireworks', '2018-05-09 22:30:49'),
+(6, 22, 'Walking And Game', '2018-05-29 14:56:41'),
+(9, 17, 'Words Of Her Life', '2018-12-07 22:48:52'),
+(6, 38, 'Wouldn\'t It Be Nice', '2019-02-07 20:33:48'),
+(8, 32,  'He\'s Walking Away', '2019-05-25 08:14:03'),
+(2, 34, 'I Heard I Want To Bo Alone', '2020-01-02 07:40:33'),
+(1, 36, 'Honey', '2020-02-28 10:45:55'),
+(1, 23, 'Young And Father', '2020-03-06 11:22:33'),
+(9, 9, 'She Knows', '2020-04-01 03:36:00'),
+(1, 25, 'Walking And Man', '2020-05-02 05:30:35'),
+(2, 24, 'Finding My Traditions', '2020-05-16 06:16:22'),
+(5, 7, 'Honey, So Do I', '2020-07-03 19:33:28'),
+(7, 4, 'Troubles Of My Inner Fire', '2020-07-27 12:52:58'),
+(3, 26, 'Hard And Time', '2020-07-30 10:00:00'),
+(1, 14, 'Diamond Power', '2020-08-05 08:05:17'),
+(5, 14, 'Diamond Power', '2020-08-06 15:23:43'),
+(1, 15, 'Let\'s Be Silly', '2020-09-14 16:32:22'),
+(2, 39, 'Baby', '2020-09-21 13:14:46'),
+(2, 21, 'Without My Love', '2020-10-09 12:27:48'),
+(8, 40, 'You Make Me Feel So..', '2020-10-18 13:38:05'),
+(5, 1, 'Soul For Us', '2020-11-10 13:52:27'),
+(3, 6, 'Magic Circus', '2020-11-13 16:55:13'),
+(3, 3,  'Dance With Her Own', '2020-12-05 18:38:30'),
+(4, 27, 'Honey, I\'m A Lone Wolf', '2021-01-09 01:44:33'),
+(9, 8, 'Sweetie, Let\'s Go Wild', '2021-03-14 06:14:26'),
+(9, 16, 'Thang Of Thunder' , '2021-05-24 17:23:45'),
+(4, 35, 'I Ride Alone', '2021-07-10 15:20:30'),
+(4, 2, 'Reflections Of Magic', '2021-08-15 17:10:10'),
+(8, 33, 'He\'s Trouble', '2021-08-15 21:37:09');
+
 
 
 
