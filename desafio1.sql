@@ -222,6 +222,8 @@ INSERT INTO SpotifyClone.reproductions_history(user_id, music_id, music_title, r
 (4, 2, 'Reflections Of Magic', '2021-08-15 17:10:10'),
 (8, 33, 'He\'s Trouble', '2021-08-15 21:37:09');
 
+-- Created based on YouTube video
+-- https://www.youtube.com/watch?v=WTTGml9Co90&list=RDCMUCzSoG5woURgXNNaDjdm6f4Q&index=2
 DELIMITER $$
 CREATE FUNCTION changeWords(wordToBechanged char(50))
 RETURNS CHAR(50)
