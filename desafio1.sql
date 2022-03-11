@@ -222,7 +222,18 @@ INSERT INTO SpotifyClone.reproductions_history(user_id, music_id, music_title, r
 (4, 2, 'Reflections Of Magic', '2021-08-15 17:10:10'),
 (8, 33, 'He\'s Trouble', '2021-08-15 21:37:09');
 
-
+DELIMITER $$
+CREATE FUNCTION changeWords(wordToBechanged char(50))
+RETURNS CHAR(50)
+BEGIN
+	SET WordToBechanged = REPLACE( wordToBechanged, 'Streets', 'Code Review' ),
+		wordToBechanged = REPLACE( wordToBechanged, 'Her Own', 'Trybe' ),
+        wordToBechanged = REPLACE( wordToBechanged, 'Inner Fire', 'Project' ),
+        wordToBechanged = REPLACE( wordToBechanged, 'Silly', 'Nice' ),
+        wordToBechanged = REPLACE( wordToBechanged, 'Circus', 'Pull Request' ) ;
+	RETURN wordToBechanged;
+END;
+$$
 
 
 
